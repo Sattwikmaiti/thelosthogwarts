@@ -21,7 +21,7 @@ const Question4 = () => {
       
     }, [database]);
     const getLeader = async ()=>{
-      const response =await fetch(`http://localhost:3000/registers`);
+      const response =await fetch(`https://thelosthogwarts.onrender.com/registers`);
       const data=await response.json();
       setDatabase(data);
     }
@@ -34,7 +34,7 @@ const Question4 = () => {
       {
       
         
-         await fetch(`http://localhost:3030/register/update/` + id, {
+         await fetch(`https://thelosthogwarts.onrender.com/register/update/` + id, {
           method: "PUT",
           headers: {
             "Content-Type": "application/json",

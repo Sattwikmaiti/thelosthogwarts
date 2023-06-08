@@ -38,7 +38,7 @@ const Rule = () => {
         { 
 
          
-            const response =await fetch(`http://localhost:3030/register/${localStorage.getItem("email")}`);
+            const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
             const data=await response.json();
             
             navigate(`/pages/${data.progress+1}`)

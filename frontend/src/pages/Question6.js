@@ -20,7 +20,7 @@ const Question6 = () => {
   {
   
     
-     await fetch(`http://localhost:3030/register/update/` + id, {
+     await fetch(`https://thelosthogwarts.onrender.com/register/update/` + id, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

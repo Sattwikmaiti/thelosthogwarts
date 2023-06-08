@@ -19,7 +19,7 @@ const Leaderboard = () => {
       
     }, [database]);
   const getLeader = async ()=>{
-    const response =await fetch(`http://localhost:3030/registers`);
+    const response =await fetch(`https://thelosthogwarts.onrender.com/registers`);
     const data=await response.json();
     setDatabase(data);
   }
@@ -34,7 +34,7 @@ const Leaderboard = () => {
         { 
 
          
-            const response =await fetch(`http://localhost:3030/register/${localStorage.getItem("email")}`);
+            const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
             const data=await response.json();
             
             navigate(`/pages/${data.progress+1}`)

@@ -36,7 +36,7 @@ useEffect(()=>{
             localStorage.setItem("email",user.user.email)
             try {
 
-              const datas = await fetch("http://localhost:3030/register", {
+              const datas = await fetch("https://thelosthogwarts.onrender.com/register", {
                 method: "POST",
                 headers: {
                   "Content-Type": "application/json",

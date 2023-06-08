@@ -20,7 +20,7 @@ const Question1 = () => {
       console.log(progress)
     }, [progress]);
   const getLeader = async ()=>{
-    const response =await fetch(`http://localhost:3030/register/${localStorage.getItem("email")}`);
+    const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
     const data=await response.json();
     
    
@@ -32,7 +32,7 @@ const Question1 = () => {
     {
     
       
-       await fetch(`http://localhost:3000/register/update/` + id, {
+       await fetch(`https://thelosthogwarts.onrender.com/register/update/` + id, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
