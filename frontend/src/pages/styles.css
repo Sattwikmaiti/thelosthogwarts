@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.question1{
+    background-image: url("../images/image2.png");
+    height:100vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Playfair Display', serif;
+    
+ 
+}
+.question2{
+    background-image: url("../images/map.jpg");
+    height:80vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.question-1{
+     
+    background-color: black;
+    opacity:0.6;
+    height:100vh;
+        width:100vw;
+    }
+        
+  
+.box div{
+    position:absolute;
+    width:40px;
+    height:40px;
+    border-radius:100px;
+    background-color:rgba(7, 126, 238, 0.966);
+
+    box-shadow: rgba(20, 184, 196, 0.56) 0px 22px 70px 4px;
+
+
+}
+
+.box div img{width:40px;
+    height:40px;
+    border-radius:100px;
+
+}
+
+.box div:nth-child(1){
+    top:12%;
+    left:34%;
+    animation:animate 10s linear infinite
+
+}
+.box div:nth-child(2){
+    top:22%;
+    left:14%;
+    animation:animate 12s linear infinite
+
+}
+.box div:nth-child(3){
+    top:20%;
+    left:0%;
+    animation:animate 19s linear infinite
+
+}
+
+.box div:nth-child(4){
+    top:80%;
+    left:10%;
+    animation:animate 16s linear infinite
+
+}
+.box div:nth-child(5){
+    top:60%;
+    left:9%;
+    animation:animate 22s linear infinite
+
+}
+.box div:nth-child(6){
+    top:60%;
+    left:80%;
+    animation:animate 22s linear infinite
+
+}
+.box div:nth-child(7){
+    top:80%;
+    left:90%;
+    animation:animate 16s linear infinite
+
+}
+.box div:nth-child(8){
+    top:10%;
+    left:60%;
+    animation:animate 16s linear infinite
+
+}
+.box div:nth-child(9){
+    top:50%;
+    left:90%;
+    animation:animate 16s linear infinite
+
+}
+.box div:nth-child(10){
+    top:30%;
+    left:40%;
+    animation:animate 16s linear infinite
+
+}
+.box div:nth-child(11){
+    top:90%;
+    left:50%;
+    animation:animate 16s linear infinite
+
+}
+@keyframes animate{
+   
+0%{
+    transform:scale(0) translateY(0) rotate(0);
+    opacity:1
+}
+
+100%{
+    transform:scale(2) translateY(-80px) rotate(360deg);
+    opacity:0.67
+}
+}
+
+
+.prompt{
+
+    color:rgba(202, 209, 216, 0.329);
+   
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+position:absolute;
+    top:6rem;
+    left:10rem;
+    width:80vw;
+    height:auto;
+    padding:2rem;
+    
+    border:4px solid rgba(214, 206, 206, 0.329)
+}
+
+.prompt .div2{
+ padding:2rem;
+
+
+}
+.prompt .div{
+    padding:1rem;
+    background-color:rgba(53, 90, 122, 0.699)
+}
+.prompt input{
+    padding:1rem;
+    background-color:rgba(240, 248, 255, 0.185);
+    font-size:2rem;
+    color:white
+}
+.submit{
+    padding:1rem;
+   
+    color:rgb(47, 65, 62);
+    font-size:1.4rem;
+    width:6rem;
+    height:2rem;
+   background-color:aliceblue;
+    outline:none;
+    
+    background-size:contain;
+    object-fit: cover;
+
+}
+
+.puzzle1{
+    position:absolute;
+    right:5%;
+    top:60%
+    
+}
+.puzzle1 img{
+    height:10rem;
+    width:10rem;
+    border:2px solid whitesmoke
+}
+
+
+.puzzle1{
+    background-color:white;
+    color:rgb(52, 135, 207);
+    margin:0.2rem
+}
+
+.puzzle1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.3rem;
+    
+}
+
+
+.boxdivs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:1rem;
+   position:absolute;
+  top:10rem;
+  left:10rem;
+    width:50rem;
+   height:auto;
+   flex-wrap: wrap;
+}
+
+.upperrow{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1rem;
+}
+
+
+.upperrow div input{
+    padding:3rem;
+  font-size:2rem;
+  
+   
+}
+
+.prompt2{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    gap:0.2rem;
+}
+.prompt2 img{
+    height:30rem;
+    width:30rem;
+}
+
+.question3{
+    overflow:visible
+}
+
+.prompt2 .text{
+    width:20rem;
+    font-family: cursive;
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+.options input{
+padding:4rem;
+width:30rem;
+
+}
+
+
+.q5 button,.div2 button{
+    padding:3rem;
+    display:flex;
+    margin:0.3rem;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.q5{
+    position:absolute;
+    left:40%;
+    top:1%;
+}
+.div input{
+    background-color: rgba(240, 248, 255, 0.247);
+}
+.question2{
+    overflow: hidden;
+}
+
+.di1,.di2{
+    font-size: 1rem;
+   
+    opacity:0;
+    
+    padding:0.2rem;
+    color:white;
+    background-color:rgba(174, 0, 255, 0.651);
+    transition: all 1s ease-in-out;
+}
+
+.cursor{
+    position:fixed;
+    pointer-events: none;
+    height:40px;
+    width:40px;
+    background-color:rgb(187, 119, 71);
+    border-radius: 20px;
+    mix-blend-mode: difference;
+    margin:1rem;
+    border:2px solid rgba(255, 255, 255, 0.212);
+    border-radius:40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+.di1:hover ~ .cursor{
+    transform: scale(3);
+
+}
+.di1:hover{
+    
+    color:rgb(212, 149, 54);
+    opacity:1;
+}
+
+
+.d1{
+    position: absolute;
+    left:0%;
+    top:30%
+}
+
+.d2{
+
+    position: absolute;
+    left:40%;
+    top:0%
+}
+
+.d3{
+    position:absolute;
+    top:65%
+}
+
+.d4{
+    position:absolute;
+    bottom:10%;
+    left:70%;
+    
+}
+
+.submit{
+    margin:1rem
+}
+
+ .im1 img{
+    height:12rem;
+    width:12rem;
+
+}
+
+.im{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:0.3rem
+}
+
+
+.r{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-top:1rem;
+
+}
+
+.c img{
+    height:15rem;
+    width:15rem;
+    margin-left:4rem
+}
+
+
+.c input{
+    padding:3rem;
+    margin:2rem;
+    background-color:rgba(0, 139, 139, 0.452);
+    color:whitesmoke;
+    font-size:1.4rem
+}
+
+
+.reveal{
+    position: fixed; z-index: 1;
+}
+
+
+
+.d,.reveal h2{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:white
+}
+.divi{
+    margin:1rem
+}
+
+
+.hints{
+    display: flex;
+    flex-direction: column;
+  
+    gap:0.2rem;
+    background-color:darkslategray;
+    margin:2rem;
+    color:whitesmoke;
+    height:100vh
+}
+
+
+
+.hint{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:0.2rem;
+    padding:1rem;
+    border:2px solid rgb(226, 192, 192);
+    margin:2rem;
+    
+}
+
+.question,.sol{
+    font-style: italic;
+    background-color: gainsboro;
+    padding:0.4rem;
+    color:black
+    
+}
+

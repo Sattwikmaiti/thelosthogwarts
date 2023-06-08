@@ -1,0 +1,17 @@
+
+
+Design Team : 
+1)Front First page Design of the website (login with google )
+2) Rules page design  (https://www.google.com/search?q=hogwarts+rule+book&sxsrf=APwXEdcIctAJZ9tTfiIX_4OB1rJ_p_7hxA:1685941460344&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiykuyurav_AhVgbWwGHchgAroQ_AUoAXoECAEQAw&biw=1466&bih=732&dpr=1#imgrc=JbDRn-9lJW0_JM&imgdii=mN_HBXuMaydOcM) Like this but simpler ///
+3) Poster for Promotion
+
+
+Web Team : 
+
+1)Navbar 
+2)Backend (leaderboard sorting according to time too ... by default i have done sorting by score)
+3) Hint page section (frontend : where hints will be provided time to time during game)
+4)total 9 questions => so 9 different web pages => 9 pieces of zigsaw puzzle 
+    3 already done ...so 6 more 
+5) Basic Comments section page (post ,update,delete comments ) 
+

@@ -1,0 +1,165 @@
+.body{
+    background-color:rgb(238, 224, 224);
+    color:antiquewhite;
+    height:100vh;
+    
+}
+
+h1{
+    color:aliceblue;font-family: 'Playfair Display', serif;
+}
+
+.leaderelement{
+    background-color: azure;
+    margin:1rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding:2rem;
+    font-size:1.4rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.username,.email,.score,.progress{
+    color:white;
+    font-size:2rem;font-family: 'Playfair Display', serif;
+}
+
+.row{
+    padding:4rem;
+    margin:2rem;
+    
+    background-color: rgba(127, 255, 212, 0.418);
+}
+.row:nth-child(odd){
+    background-color: rgba(163, 165, 175, 0.253);
+}
+
+.leader{
+    background-image: url("../images/leader.jpg");
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:auto
+}
+
+.headings{
+    background-color:rgba(240, 248, 255, 0.521)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+.login{
+    background-image:url("../images/login.gif");
+    background-size:contain;
+    height:100vh;
+    width:100vw;
+    background-position:center;
+    font-family: 'Playfair Display', serif;
+}
+
+.logoname{
+    font-size:3rem;
+    color:rgb(43, 126, 165);
+    font-weight:bolder;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+
+.logos{
+    margin-top:15rem;
+    background-color:rgba(250, 235, 215, 0.192);
+   
+}
+
+.logos {
+     color:rgba(202, 131, 143, 0.986);
+     font-size: larger;
+     border:1px solid ;
+     padding:1rem
+}
+.logo{
+    color:rgba(0, 0, 0, 0.418)
+}
+
+
+
+.rules{
+    background-image:url("../images/rule.jpg");
+    
+    background-position: center center;
+    height:100vh;
+    background-repeat:no-repeat
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Playfair+Display:ital,wght@1,700&display=swap');
+.rule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+    color:aliceblue;
+    font-size:1.6rem;
+    font-family: 'Kanit', sans-serif;
+}
+.rule li{
+    margin:2rem;
+}
+
+.rules{
+    color:rgb(211, 194, 119);
+    margin:0.2rem;
+    font-size:2rem
+}
+
+.buttonrule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonrule button{
+    padding:1.3rem;
+    font-family: 'Kanit', sans-serif;
+    background-color:black;
+    color:aliceblue;
+    
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width:90vw;
+    margin:1rem
+
+}
+
+
+.side{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2rem;
+
+}
+
+.s img{
+    height:2rem;
+
+
+    
+}
+.s1 img{
+    height:3rem
+}
+.s2 img{
+    height:3rem
+}
