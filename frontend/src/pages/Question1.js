@@ -12,7 +12,7 @@ import Design from "./Design.js"
 import Header from "../components/Header.js"
 const Question1 = () => {
 
-  const [progress,setprogress]=useState(1)
+  const [progress,setprogress]=useState(0)
    
     
     useEffect(() => {

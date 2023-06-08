@@ -14,21 +14,21 @@ import Header from "../components/Header.js"
 const Question4 = () => {
 
   
-    const [database,setDatabase]=useState([])
+  const [progress,setprogress]=useState(1)
+   
     
-    useEffect(() => {
-      getLeader();
-      
-    }, [database]);
-    const getLeader = async ()=>{
-      const response =await fetch(`https://thelosthogwarts.onrender.com/registers`);
-      const data=await response.json();
-      setDatabase(data);
-    }
-    database.sort(function(a,b){
-      if(a.score>b.score)return -1;
-      else return 1;
-    })
+  useEffect(() => {
+    getLeader();
+    console.log(progress)
+  }, [progress]);
+const getLeader = async ()=>{
+  const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
+  const data=await response.json();
+  
+ 
+  setprogress(data.progress);
+}
+
       const update = async(id)=>
   
       {
@@ -106,8 +106,8 @@ const Question4 = () => {
             <center>
 
             <div className="div2">
-            <input type="text" ref={inputref} />
-<div className="submit" onClick={onClick}>Submit</div>
+            {progress===3 && (<><input type="text" ref={inputref} />
+<div className="submit" onClick={onClick}>Submit</div> </>)}
             </div>
         
 

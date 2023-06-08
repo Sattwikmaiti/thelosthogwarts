@@ -10,7 +10,20 @@ import Cursor from './Cursor';
 import Header from "../components/Header.js"
 const Question6 = () => {
 
+  const [progress,setprogress]=useState(1)
+   
+    
+  useEffect(() => {
+    getLeader();
+    console.log(progress)
+  }, [progress]);
+const getLeader = async ()=>{
+  const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
+  const data=await response.json();
   
+ 
+  setprogress(data.progress);
+}
   const update = async(id)=>
 
   {
@@ -112,8 +125,8 @@ to Magical Mischief-Makers
             <center>
 
             <div className="div2">
-            <input type="text" ref={inputref} placeholder="Avarakadabra ..Who am I?"/>
-<div className="submit" onClick={onClick}>Submit</div>
+            {progress===5 && (<><input type="text" ref={inputref} placeholder="Avarakadabra ..Who am I?"/>
+<div className="submit" onClick={onClick}>Submit</div></>)}
             </div>
         
 

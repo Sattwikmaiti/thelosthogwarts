@@ -12,7 +12,22 @@ import Cursor from './Cursor';
 import Design from "./Design.js"
 import Header from "../components/Header.js"
 const Question10 = () => {
-
+   
+  const [progress,setprogress]=useState(1)
+   
+    
+  useEffect(() => {
+    getLeader();
+    console.log(progress)
+  }, [progress]);
+const getLeader = async ()=>{
+  const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
+  const data=await response.json();
+  
+ 
+  setprogress(data.progress);
+}
+  
   
   
   
@@ -112,8 +127,8 @@ const Question10 = () => {
             <center>
 
             <div className="div2">
-            <input type="text" ref={inputref} />
-<div className="submit" onClick={onClick}>Submit</div>
+           {progress===8 && (<><input type="text" ref={inputref} />
+<div className="submit" onClick={onClick}>Submit</div></>)} 
             </div>
         
 

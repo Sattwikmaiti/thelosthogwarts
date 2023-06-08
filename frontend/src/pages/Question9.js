@@ -92,7 +92,7 @@ const Question9 = () => {
             She tapped the diary three times and said, "Aparecium!" Nothing happened.
             <div className="div2" > 
             {
-              progress===3 &&  (<><input type="text" ref={inputref} style={{width:'15rem'}} />
+              progress===7 &&  (<><input type="text" ref={inputref} style={{width:'15rem'}} />
               <button className="submit" onClick={onClick} >Submit</button> </>)
             }
             
