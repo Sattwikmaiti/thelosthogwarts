@@ -44,6 +44,15 @@ h1{
     height:auto
 }
 
+body{
+    background-image: url("../images/leader.jpg");
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh
+
+}
 .headings{
     background-color:rgba(240, 248, 255, 0.521)
 }
