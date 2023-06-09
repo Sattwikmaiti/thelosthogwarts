@@ -22,28 +22,18 @@ const Hint = () => {
         
         style={{padding:'1rem',backgroundColor:'black'}}
         >
-          <h1>Back To Progress</h1>
-        </div>
+          <h1>Back To Progress(More Hints to come)</h1>
+        </div> 
                  <div className="hint">
                   <div className="question">
-                      Question 3
+                      Question 1
                   </div>
                   <div className="sol">
-                  Download the music and reverse the music . This spell for reversing is Priori incantatem and due to this spell,
-                   the voices you hear have come to life. This is a very important spell,due to which harry got to excape agiant Voldemort
+                    Give attention to how is phoenix related to Dumbledore.Find the same for Harry potter . The solve the question :)
                   </div>
                    
                  </div>
-                 <div className="hint">
-                  <div className="question">
-                      Question 3
-                  </div>
-                  <div className="sol">
-                  Download the music and reverse the music . This spell for reversing is Priori incantatem and due to this spell,
-                   the voices you hear have come to life. This is a very important spell,due to which harry got to excape agiant Voldemort
-                  </div>
-                   
-                 </div>
+                 
       </div>
       
       

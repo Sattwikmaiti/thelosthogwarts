@@ -93,7 +93,7 @@ const Question1 = () => {
              Harry Potter: Sir , Do i Have a Phoenix too? 
              <br />
              Dumbledore: No , Harry .You Own ur Father`s Guardian . Do want to see it ? Lets Call him .. 
-             This will help you in your fight  against Voldemore .
+             This spell will help you against the Prisoner of Azkaban too.
              
             </h2>
             </div>
