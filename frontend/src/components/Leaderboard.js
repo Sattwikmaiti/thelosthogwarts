@@ -47,7 +47,7 @@ const Leaderboard = () => {
           <h1>Back To Progress</h1>
         </div>
 
-        <center><h1>LeaderBoard</h1></center>
+        <center style={{color:'black'}}><h1>LeaderBoard</h1></center>
   <div className="wrapper">
       {
         
@@ -57,10 +57,10 @@ const Leaderboard = () => {
             <TableHead>
               <TableRow className="headings">
                 
-                <TableCell align="right">UserName</TableCell>
-                <TableCell align="center">Email ID</TableCell>
-                <TableCell align="right">Score</TableCell>
-                <TableCell align="right">Question Progress</TableCell>
+                <TableCell align="right" style={{color:'black',fontSize:'2rem'}}>UserName</TableCell>
+                <TableCell align="center" style={{color:'black',fontSize:'2rem'}}>Email ID</TableCell>
+                <TableCell align="right" style={{color:'black',fontSize:'2rem'}}>Score</TableCell>
+                <TableCell align="right" style={{color:'black',fontSize:'2rem'}}>Question Progress</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
