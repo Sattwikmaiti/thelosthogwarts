@@ -387,9 +387,7 @@ width:30rem;
 }
 
 
-.reveal{
-    position: fixed; z-index: 1;
-}
+
 
 
 
@@ -400,7 +398,12 @@ width:30rem;
     color:white
 }
 .divi{
-    margin:1rem
+    margin:1rem;
+    background-color:greenyellow;
+    padding:1rem;
+    color:rgb(44, 33, 33);
+    outline:none;
+    border:none;
 }
 
 
@@ -413,6 +416,11 @@ width:30rem;
     margin:2rem;
     color:whitesmoke;
     height:100vh
+}
+.buttonrule{
+    position:absolute;
+    top:5%;
+    left:20%;
 }
 
 

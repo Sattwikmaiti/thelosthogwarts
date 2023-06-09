@@ -59,11 +59,14 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
 .login{
-    background-image:url("../images/login.gif");
+    background-image:url("../images/front.jpeg");
     background-size:contain;
-    height:100vh;
+    height:auto;
     width:100vw;
     background-position:center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
     font-family: 'Playfair Display', serif;
 }
 
@@ -83,11 +86,8 @@ body{
    
 }
 
-.logos {
-     color:rgba(202, 131, 143, 0.986);
-     font-size: larger;
-     border:1px solid ;
-     padding:1rem
+.loginname{
+    font-size:3rem
 }
 .logo{
     color:rgba(0, 0, 0, 0.418)
@@ -99,7 +99,7 @@ body{
     background-image:url("../images/rule.jpg");
     
     background-position: center center;
-    height:100vh;
+    height:auto;
     background-repeat:no-repeat
     
 
@@ -121,9 +121,11 @@ body{
 }
 
 .rules{
-    color:rgb(211, 194, 119);
-    margin:0.2rem;
-    font-size:2rem
+    color:rgb(37, 170, 211);
+    margin:1rem;
+    font-size:2rem;
+    background-color:rgba(0, 0, 0, 0.678);
+    background-image:url("https://see.fontimg.com/api/renderfont4/EaGOl/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UlVMRUJPT0s/wolfpack-halloweed.png")
 }
 
 .buttonrule{
@@ -131,16 +133,23 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .buttonrule button{
     padding:1.3rem;
     font-family: 'Kanit', sans-serif;
-    background-color:black;
+    background-color:rgb(104, 187, 108);
     color:aliceblue;
+    outline:none;
+    border:none;
     
 }
-
+.date{
+margin:1.2rem;
+font-family: 'Kanit', sans-serif;
+color:rgb(104, 187, 108);
+}
 .header{
     display:flex;
     flex-direction: row;

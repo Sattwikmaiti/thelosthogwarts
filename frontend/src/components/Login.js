@@ -3,7 +3,7 @@ import "./styles.css"
 import GoogleIcon from '@mui/icons-material/Google';
 import  { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import entry from "../images/entry.mp3"
 import {auth,provider}  from "./Config.js"
 import {signInWithPopup,onAuthStateChanged} from "firebase/auth"
 import Cursor from "../pages/Cursor.js"
@@ -26,8 +26,9 @@ useEffect(()=>{
 
 
     const handleClick =  ()=>{
-     
+      new Audio(entry).play()
       alert("clicked")
+      
       signInWithPopup(auth,provider).then(
        async (user)=>{
             localStorage.setItem("user",JSON.stringify(user))
@@ -75,14 +76,14 @@ useEffect(()=>{
         <div className="login">
 
          <center className="logoname">
-          THE LOST HOGWART'S
+          
          </center>
          <center className="logos">
           <div className="p1">
           <GoogleIcon sx={{fontSize:'100px' ,}} onClick={handleClick} className="logo"/>
           </div>
         
-        <div>Login with Google</div>
+        <div className="loginname">Login with Google</div>
         </center> </div>
       ) : (
 <Rule />
