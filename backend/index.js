@@ -20,13 +20,69 @@ mongoose
     console.log("Connected to database");
   })
   .catch((e) => console.log(e));
+//change 
+
+  app.post("/search/:id", async (req, res) => {
+    await User.findOne({email: req.params.id}).then(async(e)=>{
+      console.log(e)
+      if(e===null){
+        const newUser = new User({
+          username: req.body.username,
+          email: req.body.email,
+          score: req.body.score,
+         
+          lastcorrect:Date.now()
+        });
+    //saving the new user 
+        const user = await newUser.save();
+        res.status(200).json(user);
+      }
+      else   res.status(400).json({ message: "User already exists." });
+
+    }).catch((e)=>res.json("errt"+e));
+ 
+    
+
+  })
 
 
+  app.post("/register/:id", async (req, res) => {
+    try {
+      const existingUser = await User.findOne({ email: req.params.id });
+  
+      if (existingUser === null) {
+        // User does not exist, create a new user
+        const newUser = new User({
+          username: req.body.username,
+          email: req.body.email,
+          score: req.body.score,
+          lastcorrect: Date.now()
+        });
+  
+        // Saving the new user
+        const user = await newUser.save();
+        res.status(200).json(user);
+      } else {
+        // User already exists, handle the situation accordingly
+        res.status(400).json({ message: "User already exists." });
+      }
+    } catch (error) {
+      res.status(500).json({ message: "Error occurred.", error: error.message });
+    }
+  });
+  
 
   app.post("/register", async (req, res) => {
    
     //salt is a random string , generated in  time=10
-      
+     
+    
+
+
+
+
+
+    
       const newUser = new User({
         username: req.body.username,
         email: req.body.email,
@@ -37,6 +93,7 @@ mongoose
   //saving the new user 
       const user = await newUser.save();
       res.status(200).json(user);
+
     
     
   })
