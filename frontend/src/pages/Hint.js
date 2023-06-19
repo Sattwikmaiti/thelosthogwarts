@@ -29,7 +29,7 @@ const Hint = () => {
                       Question 1
                   </div>
                   <div className="sol">
-                    Give attention to how is phoenix related to Dumbledore.Find the same for Harry potter . The solve the question 
+                    Give attention to how is phoenix related to Dumbledore.Find the same for Harry potter . The solve the question (Your EX will give you a PEC of TOrtila )
                   </div>
                    
                  </div>
