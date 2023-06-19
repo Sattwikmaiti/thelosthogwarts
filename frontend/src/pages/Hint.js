@@ -40,7 +40,17 @@ const Hint = () => {
                       Question 2
                   </div>
                   <div className="sol">
-                    Win The QuadBall game -_- 
+                    Win The Quidditch game . 
+                  </div>
+                   
+                 </div>
+
+                 <div className="hint">
+                  <div className="question">
+                      Question 4
+                  </div>
+                  <div className="sol">
+                    UNSCRAMBLE me 
                   </div>
                    
                  </div>

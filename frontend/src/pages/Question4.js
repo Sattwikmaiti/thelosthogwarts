@@ -58,7 +58,7 @@ const getLeader = async ()=>{
     const inputref=useRef(null);
     const onClick = ()=>
     {  console.log(inputref.current.value==="EXPECTOPATRONUM")
-        if(inputref.current.value==="IAMLORDVOLDEMORT" || inputref.current.value==="VOLDEMORT" )
+        if(inputref.current.value==="IAMLORDVOLDEMORT" || inputref.current.value==="VOLDEMORT" ||inputref.current.value==="LORDVOLDEMORT")
         {update(localStorage.getItem("email"))
        
         
