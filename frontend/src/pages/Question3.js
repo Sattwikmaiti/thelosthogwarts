@@ -103,7 +103,7 @@ const getLeader = async ()=>{
           <div className="prompt"  >
             <div className="div" >
             <h3>
-            I was shown as a evil in my earlier days of Hogwarts but a saint in my last days.
+            3)I was shown as a evil in my earlier days of Hogwarts but a saint in my last days.
 In my death ,My Tears will be a form of memories ,which will tell Harry The truth .
 I am not a traitor but to show Voldemort i am ...i killed my master on his orders
 </h3>

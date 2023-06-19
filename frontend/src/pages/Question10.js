@@ -120,7 +120,7 @@ const getLeader = async ()=>{
   
   
 /> 
-<h3> i am the spell due to which these voices you hear ,if you can catch it,you will crack it or you will  hear it Back!!!</h3>
+<h3>9) i am the spell due to which these voices you hear ,if you can catch it,you will crack it or you will  hear it Back!!!</h3>
        
                          
             </div>

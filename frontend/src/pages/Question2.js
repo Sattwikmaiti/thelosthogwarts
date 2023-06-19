@@ -88,7 +88,7 @@ const getLeader = async ()=>{
           <div className="prompt"  >
             <div className="div" >
             <h2>
-            Albus Dumbledore assumed that Harry Potter would need the Resurrection Stone set into Marvolo Gaunt's ring at some point in his quest to destroy Voldemort's Horcruxes. He also assumed that Harry would be tempted by the stone if he was able to access it before he was fully ready to accept that he would have to let Voldemort attempt to kill him
+          2)  Albus Dumbledore assumed that Harry Potter would need the Resurrection Stone set into Marvolo Gaunt's ring at some point in his quest to destroy Voldemort's Horcruxes. He also assumed that Harry would be tempted by the stone if he was able to access it before he was fully ready to accept that he would have to let Voldemort attempt to kill him
             
             This gift will  not be touched by bare skin before it is released, not even by the maker, who wears gloves. It carries an enchantment by which it can identify the first human to lay hands upon it, in the case of disputed capture..What is it? (REFRESH THE PAGE)
              <br />

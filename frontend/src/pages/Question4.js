@@ -89,7 +89,7 @@ const getLeader = async ()=>{
             <div className="div" >
             <img src={crossword}  style={{height:'14rem',width:'14rem'}}/>
             <h2>
-              FIND THE THREE WORDS AND SAY WHO AM I??
+            4)  FIND THE THREE WORDS AND SAY WHO AM I??
               Clues:
               <br />
               <li>

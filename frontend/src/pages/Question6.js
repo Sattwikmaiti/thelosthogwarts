@@ -87,7 +87,7 @@ const getLeader = async ()=>{
           <div className="prompt"  >
             <div className="div" >
             <h3>
-        The spell which defeated Voldemort ,against his AVARA KADABRA. Harry potter's Favourite spell, taught by Professor Snape. 
+      5)  The spell which defeated Voldemort ,against his AVARA KADABRA. Harry potter's Favourite spell, taught by Professor Snape. 
 </h3>
 
             </div>

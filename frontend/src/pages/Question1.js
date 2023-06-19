@@ -89,7 +89,7 @@ const Question1 = () => {
             <div className="div" >
             <h2>
               
-             Dumbledore : 
+           1)  Dumbledore : 
 'Stay here.' He raised his wand into the air and pointed it in the direction of Hagrid's cabin. Harry saw something silvery dart out of it and streak away through the trees like a ghostly bird .Phoenix , Come and Show my Student Harry ,some Magic !!
              <br />
              Harry Potter: Sir , Do i Have a Phoenix too? 

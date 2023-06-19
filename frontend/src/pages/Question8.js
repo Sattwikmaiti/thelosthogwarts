@@ -99,7 +99,7 @@ const getLeader = async ()=>{
           </div>
           <div className="prompt"  >
             <div className="div " >
-               <h3>Find a link between the images and tell who am I ? </h3>
+               <h3>7)Find a link between the images and tell who am I ? </h3>
 <div className="im">
                 <div className="im1">
                     <img src={hagrid} />

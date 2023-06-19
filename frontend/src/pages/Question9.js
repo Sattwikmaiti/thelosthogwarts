@@ -89,7 +89,7 @@ const Question9 = () => {
           <div className="prompt  "  >
             <div className="div prompt2" >
             <div className="text">
-            She tapped the diary three times and said, "Aparecium!" Nothing happened.
+           8) She tapped the diary three times and said, "Aparecium!" Nothing happened.
             <div className="div2" > 
             {
               progress===7 &&  (<><input type="text" ref={inputref} style={{width:'15rem'}} />

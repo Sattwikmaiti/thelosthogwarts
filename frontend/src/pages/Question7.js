@@ -125,7 +125,7 @@ to Magical Mischief-Makers
             <center>
 
             <div className="div2">
-            {progress===5 && (<><input type="text" ref={inputref} placeholder="Avarakadabra ..Who am I?"/>
+            {progress===5 && (<><input type="text" ref={inputref} placeholder="6)Avarakadabra ..Who am I?"/>
 <div className="submit" onClick={onClick}>Submit</div></>)}
             </div>
         
