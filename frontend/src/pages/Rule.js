@@ -66,8 +66,8 @@ const Rule = () => {
             const response =await fetch(`https://thelosthogwarts.onrender.com/register/${localStorage.getItem("email")}`);
             const data=await response.json();
             
-            //navigate(`/pages/${data.progress+1}`)
-            navigate('/rule')
+            navigate(`/pages/${data.progress+1}`)
+            //navigate('/rule')
           
 
         }} > Go To Questions
