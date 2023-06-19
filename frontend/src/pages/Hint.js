@@ -55,6 +55,43 @@ const Hint = () => {
                    
                  </div>
 
+                 <div className="hint">
+                  <div className="question">
+                      Question 6
+                  </div>
+                  <div className="sol">
+                    Move your Cursor Slowly on the screen and find out the mistery :)
+                  </div>
+                   
+                 </div>
+                 <div className="hint">
+                  <div className="question">
+                      Question 7
+                  </div>
+                  <div className="sol">
+                    The Laxmi God's pet :)
+                  </div>
+                   
+                 </div>
+                 <div className="hint">
+                  <div className="question">
+                      Question 8
+                  </div>
+                  <div className="sol">
+                    Meaning of Aparacium . Image Decode(Stegonagraphy) to decode :) 
+                  </div>
+                   
+                 </div>
+                 <div className="hint">
+                  <div className="question">
+                      Question 9
+                  </div>
+                  <div className="sol">
+                    Related to reverse :) 
+                  </div>
+                   
+                 </div>
+                 
                  
                  
               
