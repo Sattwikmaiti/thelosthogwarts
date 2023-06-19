@@ -47,7 +47,7 @@ const Leaderboard = () => {
           <h1>Back To Progress</h1>
         </div>
 
-        <center style={{color:'black'}}><h1>LeaderBoard</h1></center>
+        <center style={{color:'black'}}><h1>LeaderBoard({database.length})</h1></center>
   <div className="wrapper">
       {
         
