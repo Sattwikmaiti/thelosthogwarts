@@ -17,7 +17,7 @@ const Rule = () => {
         <Cursor />
            <center className="Rules"><img src="https://see.fontimg.com/api/renderfont4/EaGOl/eyJyIjoiZnMiLCJoIjo2NSwidyI6MTAwMCwiZnMiOjY1LCJmZ2MiOiIjRUFEREREIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/UlVMRUJPT0s/wolfpack-halloweed.png" /></center>
       <div className="date">
-           DATE :20TH JUNE FROM 10AM MORNING 
+           Live :) Enjoy and Read the RULES.
       </div>
            <ul className="rule">
            <li>
