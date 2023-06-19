@@ -24,15 +24,31 @@ const Hint = () => {
         >
           <h1>Back To Progress(More Hints to come)</h1>
         </div> 
-                 <div className="hint">
+        <div className="hint">
                   <div className="question">
                       Question 1
                   </div>
                   <div className="sol">
-                    Give attention to how is phoenix related to Dumbledore.Find the same for Harry potter . The solve the question :)
+                    Give attention to how is phoenix related to Dumbledore.Find the same for Harry potter . The solve the question 
                   </div>
                    
                  </div>
+                 
+
+                 <div className="hint">
+                  <div className="question">
+                      Question 2
+                  </div>
+                  <div className="sol">
+                    Win The QuadBall game -_- 
+                  </div>
+                   
+                 </div>
+
+                 
+                 
+              
+                  
                  
                  
       </div>

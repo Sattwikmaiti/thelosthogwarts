@@ -81,12 +81,14 @@ const Question1 = () => {
 <Header />
 <div className="question1 "  >
 <Cursor />
+ 
         <div className="question-1">
         <Design />
           </div>
           <div className="prompt"  >
             <div className="div" >
             <h2>
+              
              Dumbledore : 
 'Stay here.' He raised his wand into the air and pointed it in the direction of Hagrid's cabin. Harry saw something silvery dart out of it and streak away through the trees like a ghostly bird .Phoenix , Come and Show my Student Harry ,some Magic !!
              <br />

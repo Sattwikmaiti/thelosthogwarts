@@ -25,6 +25,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <span style={{color:'pink'}}>!(Refresh to load the submit button)</span>
     </div>
   )
 }
