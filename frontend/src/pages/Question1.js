@@ -68,7 +68,7 @@ const Question1 = () => {
     
     
     }
-        inputref.current.value=' ';
+        inputref.current.value=' WRONG ANSWER ';
        
 
 

@@ -92,7 +92,7 @@ const getLeader = async ()=>{
     }
         
        
-
+    inputref.current.value=' WRONG ANSWER ';
     }
 
 

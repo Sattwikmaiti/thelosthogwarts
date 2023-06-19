@@ -70,7 +70,7 @@ const Question9 = () => {
     
     
     }
-        inputref.current.value=' ';
+    inputref.current.value=' WRONG ANSWER ';
        
 
 
