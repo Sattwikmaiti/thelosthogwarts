@@ -83,14 +83,29 @@ body{
 .logos{
     margin-top:15rem;
     background-color:rgba(250, 235, 215, 0.192);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    
    
 }
-
+.p1,.loginname{
+    background-color:rgba(0, 255, 234, 0.322)
+}
 .loginname{
-    font-size:3rem
+    font-size:3rem;
+    padding:2rem
+}
+
+.loginname:hover{
+    mix-blend-mode: exclusion;
+    color:rgb(226, 226, 226)
 }
 .logo{
-    color:rgba(0, 0, 0, 0.418)
+    color:rgba(0, 0, 0, 0.418);
+    padding:0.56rem
 }
 
 

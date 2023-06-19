@@ -83,7 +83,7 @@ useEffect(()=>{
           <GoogleIcon sx={{fontSize:'100px' ,}} onClick={handleClick} className="logo"/>
           </div>
         
-        <div className="loginname">Login with Google</div>
+        <div className="loginname" onClick={handleClick}>Login with Google</div>
         </center> </div>
       ) : (
 <Rule />

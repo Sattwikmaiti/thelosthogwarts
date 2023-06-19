@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 .question1{
-    background-image: url("../images/image2.png");
+    background-image: url("../images/mini.gif");
     height:100vh;
     width:100vw;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@
 }
 .question-1{
      
-    background-color: black;
+    
     opacity:0.6;
     height:100vh;
         width:100vw;
@@ -33,9 +33,7 @@
     width:40px;
     height:40px;
     border-radius:100px;
-    background-color:rgba(7, 126, 238, 0.966);
-
-    box-shadow: rgba(20, 184, 196, 0.56) 0px 22px 70px 4px;
+   
 
 
 }
@@ -121,7 +119,7 @@
 }
 
 100%{
-    transform:scale(2) translateY(-80px) rotate(360deg);
+    transform:scale(1.2) translateY(-80px) rotate(360deg);
     opacity:0.67
 }
 }
